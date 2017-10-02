@@ -1,7 +1,5 @@
 file { '/etc/owned_by_vagrant':
-
   ensure => present,
-  owner   => 'vagrant',
-
+  owner  => 'vagrant',
   mode   => '0644',
 }
